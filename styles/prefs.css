@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(236, 210, 210);
+  /* background-image: url('../imgs/land.jpg'); */
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-container {
+  font-size: 2rem;
+  color: rgb(56, 56, 56);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.form-container form {
+  color: rgb(231, 223, 223);
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 1px 3px 30px black;
+  border-radius: 7px;
+  width: 20rem;
+  height: 25rem;
+  margin-top: 2rem;
+}
+
+input {
+  margin: 1.5rem;
+  cursor: pointer;
+}
+
+#birth {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  font-size: 1rem;
+}
+
+button {
+  transition: 0.4s ease;
+  cursor: pointer;
+  margin: 1.5rem;
+  width: 137px;
+  height: 44px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: rgb(35, 133, 126);
+  color: white;
+  border: none;
+  box-shadow: 3px 3px 17px black;
+}
+
+button:hover {
+  background-color: rgb(156, 138, 138);
+}
+
+header {
+  width: 80%;
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+
+.logo {
+  margin-right: 15rem;
+  font-weight: 500;
+  font-size: 2.2rem;
+  color: rgb(66, 66, 66);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+  transition: 0.2s ease-in-out;
+}
+
+a:hover {
+  color: rgb(35, 133, 126);
+}
+
+nav li {
+  margin: auto;
+  margin: 2rem 5rem 0 0;
+  font-weight: 400;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+nav li:hover {
+  color: rgb(35, 133, 126);
+  transform: rotate(10deg);
+}

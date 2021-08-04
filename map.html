@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/map.css" />
+    <title>Place Keeper</title>
+  </head>
+  <body onload="onInit()">
+    <header>
+      <nav>
+        <ul>
+          <li class="logo"><a href="index.html">Shmap</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="map"></div>
+    <button>➕</button>
+
+    <table>
+      <tbody></tbody>
+    </table>
+    <script src="js/storageService.js"></script>
+    <script src="js/userPrefService.js"></script>
+    <script src="js/placeService.js"></script>
+    <script src="js/main.js"></script>
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap"
+    ></script>
+  </body>
+</html>

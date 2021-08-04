@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/prefs.css" />
+    <title>Place Keeper</title>
+  </head>
+  <body onload="onInit()">
+    <main>
+      <header>
+        <nav>
+          <ul>
+            <li class="logo"><a href="index.html">Shmap</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="form-container">
+        <h3>Preferations</h3>
+        <form action="">
+          <label for="color">Choose Your Color</label>
+          <input name="color" id="color" type="color" />
+          <label for="birth">Date Of Birth:</label>
+          <input name="date" id="birth" type="date" />
+          <button onclick="onSetBgColor(event)">Submit</button>
+        </form>
+      </div>
+    </main>
+
+    <script src="js/storageService.js"></script>
+    <script src="js/userPrefService.js"></script>
+    <script src="js/placeService.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
